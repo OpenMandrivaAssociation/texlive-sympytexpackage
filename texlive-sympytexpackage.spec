@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-sympytexpackage
 Version:	20140620
-Release:	3
+Release:	4
 Summary:	TeXLive sympytexpackage package
 Group:		Publishing
 URL:		http://tug.org/texlive
