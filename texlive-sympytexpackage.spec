@@ -1,12 +1,6 @@
-# revision 34176
-# category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-sympytexpackage
-Version:	20140620
-Release:	4
+Version:	20171116
+Release:	1
 Summary:	TeXLive sympytexpackage package
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -32,14 +26,11 @@ TeXLive sympytexpackage package.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/scripts/sympytexpackage/sympytex.py
-%{_texmfdistdir}/tex/latex/sympytexpackage/sympytex.sty
-%doc %{_texmfdistdir}/doc/latex/sympytexpackage/README
-%doc %{_texmfdistdir}/doc/latex/sympytexpackage/example.pdf
-%doc %{_texmfdistdir}/doc/latex/sympytexpackage/sympytexpackage.pdf
+%{_texmfdistdir}/scripts/sympytexpackage
+%{_texmfdistdir}/tex/latex/sympytexpackage
+%doc %{_texmfdistdir}/doc/latex/sympytexpackage
 #- source
-%doc %{_texmfdistdir}/source/latex/sympytexpackage/sympytexpackage.dtx
-%doc %{_texmfdistdir}/source/latex/sympytexpackage/sympytexpackage.ins
+%doc %{_texmfdistdir}/source/latex/sympytexpackage
 
 #-----------------------------------------------------------------------
 %prep
