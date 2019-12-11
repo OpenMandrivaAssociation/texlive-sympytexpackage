@@ -1,6 +1,6 @@
 Name:		texlive-sympytexpackage
 Version:	20190228
-Release:	1
+Release:	2
 Summary:	TeXLive sympytexpackage package
 Group:		Publishing
 URL:		http://tug.org/texlive
